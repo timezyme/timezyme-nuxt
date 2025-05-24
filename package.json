@@ -9,27 +9,41 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "format": "prettier . --write",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "husky"
   },
   "dependencies": {
-    "@nuxt/eslint": "1.4.1",
     "@nuxt/icon": "1.13.0",
-    "@tailwindcss/vite": "^4.1.7",
+    "@pinia/nuxt": "^0.11.0",
+    "apexcharts": "^4.7.0",
+    "cally": "^0.8.0",
+    "filepond": "^4.32.7",
+    "filepond-plugin-image-preview": "^4.6.12",
     "nuxt": "^3.17.4",
-    "tailwindcss": "^4.1.7",
+    "pinia": "^3.0.2",
+    "simplebar": "^6.3.1",
     "vue": "^3.5.14",
+    "vue-filepond": "^7.0.4",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.13.2",
+    "@iconify-json/lucide": "^1.2.43",
     "@iconify-json/tabler": "^1.2.18",
+    "@iconify/tailwind4": "^1.0.6",
+    "@nuxt/eslint": "1.4.1",
+    "@tailwindcss/vite": "^4.1.7",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "daisyui": "^5.0.37",
     "eslint": "^9.27.0",
     "eslint-plugin-format": "^1.0.1",
     "husky": "^9.1.7",
-    "lint-staged": "^16.0.0"
+    "lint-staged": "^16.0.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.1.7"
   },
   "lint-staged": {
     "*": "pnpm lint"

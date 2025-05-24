@@ -67,7 +67,7 @@
               alt="Zyme"
             />
             <img
-              src="/images/landing/hero-dashboard-dark.png"
+              src="/images/landing/hero-dashboard-dark-4.png"
               class="hidden h-full w-full rounded-lg dark:block"
               alt="Zyme"
             />

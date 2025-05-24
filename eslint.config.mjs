@@ -21,6 +21,12 @@ export default withNuxt(
     },
     {
       rules: {
+        "@typescript-eslint/ban-ts-comment": "off",
+        "vue/html-self-closing": "off",
+        "vue/component-definition-name-casing": "off",
+        "vue/multi-word-component-names": "off",
+        "vue/no-deprecated-slot-attribute": "off",
+        "vue/no-v-html": "off",
         "vue/max-attributes-per-line": [
           "error",
           {
@@ -47,8 +53,11 @@ export default withNuxt(
         "unicorn/filename-case": [
           "error",
           {
-            case: "kebabCase",
-            ignore: ["README.md"],
+            cases: {
+              kebabCase: true,
+              pascalCase: true,
+            },
+            ignore: ["README.md", "CTA.vue", "FAQ.vue"],
           },
         ],
       },

@@ -57,7 +57,7 @@ export default withNuxt(
               kebabCase: true,
               pascalCase: true,
             },
-            ignore: ["README.md", "CTA.vue", "FAQ.vue"],
+            ignore: ["README.md", "CTA.vue", "FAQ.vue", "CLAUDE.md"],
           },
         ],
       },

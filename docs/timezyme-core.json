@@ -1,0 +1,43 @@
+{
+  "$comment": "TimeZyme core blank stub. Fill all null / [] values.",
+  "who": {
+    "$comment": "Primary authors or organizations, in order of appearance.",
+    "authors_and_entities": []
+  },
+  "what": {
+    "$comment": "Document identity and focus.",
+    "title": null,
+    "summary": null,
+    "zyme_abstract": null,
+    "keywords": [],
+    "document_type": null,
+    "research_questions_or_objectives": []
+  },
+  "where": {
+    "$comment": "Publication venue & identifiers.",
+    "publication_venue_name": null,
+    "doi": null,
+    "publication_url": null
+  },
+  "when": {
+    "$comment": "Key date (YYYY-MM-DD preferred).",
+    "publication_or_event_date": null
+  },
+  "how": {
+    "$comment": "Method, findings, conclusions.",
+    "methodology_summary_or_process_description": null,
+    "key_findings_or_results_or_outcomes": [],
+    "main_conclusions_or_recommendations_or_rulings": []
+  },
+  "how_much": {
+    "$comment": "Numbers, scope, limitations.",
+    "sample_size_or_dataset_description": null,
+    "key_quantitative_results_or_metrics": [],
+    "limitations_stated_or_risks_identified": []
+  },
+  "_meta": {
+    "$comment": "Extraction confidence notes.",
+    "confidence": null,
+    "uncertain": []
+  }
+}

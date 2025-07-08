@@ -62,5 +62,12 @@ export default withNuxt(
         ],
       },
     },
+    {
+      // Specific overrides for YAML files to resolve conflicting rules
+      files: ["**/*.yml", "**/*.yaml"],
+      rules: {
+        "yaml/plain-scalar": "off",
+      },
+    },
   ),
 );

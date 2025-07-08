@@ -53,7 +53,10 @@ onUnmounted(() => {
               class="drawer-toggle"
             />
             <div class="drawer-content">
-              <label for="demo-drawer" class="btn drawer-button btn-ghost btn-square btn-sm">
+              <label
+                for="demo-drawer"
+                class="btn drawer-button btn-ghost btn-square btn-sm"
+              >
                 <span class="iconify lucide--menu size-4.5"></span>
               </label>
             </div>
@@ -63,10 +66,12 @@ onUnmounted(() => {
                 aria-label="close sidebar"
                 class="drawer-overlay"
               ></label>
-              <ul class="menu bg-base-100 text-base-content min-h-full w-80 p-4">
+              <ul
+                class="menu bg-base-100 text-base-content min-h-full w-80 p-4"
+              >
                 <li><p>Home</p></li>
                 <li>
-                  <NuxtLink href="/dashboards/ecommerce">
+                  <NuxtLink href="/apps/create-zyme">
                     Dashboard
                   </NuxtLink>
                 </li>
@@ -86,11 +91,13 @@ onUnmounted(() => {
       </div>
 
       <!-- Center: Main navigation menu - absolutely centered -->
-      <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
+      <div
+        class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10"
+      >
         <ul class="menu menu-horizontal hidden gap-2 px-1 lg:inline-flex">
           <li><p>Home</p></li>
           <li>
-            <NuxtLink href="/dashboards/ecommerce">
+            <NuxtLink href="/apps/create-zyme">
               Dashboard
             </NuxtLink>
           </li>
@@ -108,10 +115,7 @@ onUnmounted(() => {
           trigger-class="btn btn-square btn-sm border-transparent bg-transparent"
           dropdown-class="dropdown-center dropdown-end"
         />
-        <NuxtLink
-          href="/auth/login"
-          class="btn btn-primary btn-sm"
-        >
+        <NuxtLink href="/auth/login" class="btn btn-primary btn-sm">
           <span class="iconify lucide--log-in size-4"></span>
           Login
         </NuxtLink>

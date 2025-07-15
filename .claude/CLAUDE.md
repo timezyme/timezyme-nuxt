@@ -116,6 +116,7 @@ pnpm add @mastra/core
 ### Workflow
 
 - Be sure to typecheck when you’re done making a series of code changes
+- Always run `pnpm run lint` after implementing features/fixes and fix any errors before considering the task complete
 - Prefer running single tests, and not the whole test suite, for performance
 
 ### Component Structure
@@ -137,6 +138,16 @@ pnpm add @mastra/core
 - Prettier for formatting
 - Husky + lint-staged for pre-commit hooks
 - Environment validation with Zod
+
+**IMPORTANT**: After implementing any feature, fix, or issue:
+
+1. Always run `pnpm run lint` to check for linting errors
+2. If errors are found, run `pnpm run lint:fix` to auto-fix what's possible
+3. Manually fix any remaining errors that can't be auto-fixed
+4. Common manual fixes needed:
+   - Add `// eslint-disable-next-line node/no-process-env` before `process.env` usage
+   - Rename files to follow kebab-case or PascalCase conventions
+   - Update imports after renaming files
 
 ### Testing
 

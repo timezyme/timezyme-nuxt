@@ -8,6 +8,7 @@ const EnvSchema = z.object({
 
 export type EnvSchema = z.infer<typeof EnvSchema>;
 
+// gives nicer error in the console
 tryParseEnv(EnvSchema);
 
 // eslint-disable-next-line node/no-process-env
